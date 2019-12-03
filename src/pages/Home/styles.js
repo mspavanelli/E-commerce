@@ -36,6 +36,7 @@ export const ProductList = styled.ul`
       background: #7159c1;
       border: 0;
       border-radius: 4px;
+      color: white;
       overflow: hidden;
       margin-top: auto;
       display: flex;
