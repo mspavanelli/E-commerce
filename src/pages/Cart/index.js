@@ -36,7 +36,7 @@ const Cart = () => (
               <button type="button">
                 <MdRemoveCircleOutline size={20} color="#7159c1" />
               </button>
-              <input type="text" readonly value={1} />
+              <input type="text" readOnly value={1} />
               <button type="button">
                 <MdAddCircleOutline size={20} color="#7159c1" />
               </button>
