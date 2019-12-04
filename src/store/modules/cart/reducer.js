@@ -28,7 +28,6 @@ const cart = (state = [], action) => {
         }
       });
     case '@cart/UPDATE_AMOUNT': {
-      console.log({ action });
       if (action.amount <= 0) {
         return state;
       }
