@@ -5,5 +5,11 @@ export const addToCart = product => ({
 
 export const removeFromCart = id => ({
   type: '@cart/REMOVE',
-  id: id,
+  id,
+});
+
+export const updateAmount = (id, amount) => ({
+  type: '@cart/UPDATE_AMOUNT',
+  id,
+  amount,
 });
